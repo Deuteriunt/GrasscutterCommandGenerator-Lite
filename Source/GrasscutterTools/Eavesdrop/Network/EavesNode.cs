@@ -256,32 +256,32 @@ namespace Eavesdrop.Network
                     case "content-type": request.ContentType = value; break;
 
                     case "content-length":
-                    {
-                        request.ContentLength =
-                            long.Parse(value, CultureInfo.InvariantCulture);
-
-                        break;
-                    }
-                    case "cookie":
-                    {
-                        foreach (Cookie cookie in GetCookies(value, request.Host))
                         {
-                            try
-                            {
-                                request.CookieContainer.Add(cookie);
-                            }
-                            catch (CookieException) { }
-                        }
-                        request.Headers[name] = value;
-                        break;
-                    }
-                    case "if-modified-since":
-                    {
-                        request.IfModifiedSince = DateTime.Parse(
-                            value.Split(';')[0], CultureInfo.InvariantCulture);
+                            request.ContentLength =
+                                long.Parse(value, CultureInfo.InvariantCulture);
 
-                        break;
-                    }
+                            break;
+                        }
+                    case "cookie":
+                        {
+                            foreach (Cookie cookie in GetCookies(value, request.Host))
+                            {
+                                try
+                                {
+                                    request.CookieContainer.Add(cookie);
+                                }
+                                catch (CookieException) { }
+                            }
+                            request.Headers[name] = value;
+                            break;
+                        }
+                    case "if-modified-since":
+                        {
+                            request.IfModifiedSince = DateTime.Parse(
+                                value.Split(';')[0], CultureInfo.InvariantCulture);
+
+                            break;
+                        }
 
                     case "date":
                         if (long.TryParse(value, out var timestamp))
@@ -297,12 +297,12 @@ namespace Eavesdrop.Network
                         break;
 
                     default:
-                    request.Headers[name] = value; break;
+                        request.Headers[name] = value; break;
                 }
             }
             return request;
         }
-        
+
         public void Dispose()
         {
             Dispose(true);

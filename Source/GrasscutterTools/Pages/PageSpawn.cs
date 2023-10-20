@@ -75,10 +75,10 @@ namespace GrasscutterTools.Pages
 
             CmbFilterEntity.DataSource = types;
             EntityList = entityList;
-            
+
 
             //Console.WriteLine(string.Join("\n", GameData.Gadgets.Keys));
-            
+
             LoadEntityList();
         }
 
@@ -87,7 +87,7 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private string[] SelectedEntityTypeLines;
 
-        
+
         /// <summary>
         /// 类别选中时触发
         /// </summary>

@@ -220,9 +220,6 @@ Do you want to check for updates? Selecting No will no longer remind you of this
   <data name="QueryServerStatusFailed" xml:space="preserve">
     <value>Failed to query server status:</value>
   </data>
-  <data name="Quest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\en-us\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="RequireOpenCommandTip" xml:space="preserve">
     <value>Please connect to a server that supports [OpenCommand] first</value>
   </data>
@@ -288,9 +285,6 @@ Improvement suggestions have been submitted, please use caution to send emails t
   <data name="GachaBennerTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\GachaBennerTitle.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
-  <data name="Dungeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\en-us\Dungeon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="All" xml:space="preserve">
     <value>All</value>
   </data>
@@ -354,9 +348,6 @@ Improvement suggestions have been submitted, please use caution to send emails t
   <data name="PlayerProperty" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\PlayerProperty.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Cutscene" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\en-us\Cutscene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
-  </data>
   <data name="Activity" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Activity.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -386,8 +377,5 @@ Improvement suggestions have been submitted, please use caution to send emails t
   </data>
   <data name="PageWeatherTitle" xml:space="preserve">
     <value>Weather</value>
-  </data>
-  <data name="Weather" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\en-us\Weather.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

@@ -26,7 +26,7 @@ namespace GrasscutterTools.Game.Data.Excels
     {
         [JsonProperty("type")]
         public string Type { get; set; }
-        
+
         [JsonProperty("jsonName")]
         public string JsonName { get; set; }
 

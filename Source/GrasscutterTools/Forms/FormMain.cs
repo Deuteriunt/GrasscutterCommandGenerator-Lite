@@ -92,12 +92,6 @@ namespace GrasscutterTools.Forms
                     Logger.I(TAG, "Restore NavContainer SplitterDistance: " + NavContainer.SplitterDistance);
                 }
 
-                // 还原窗口的不透明度
-                if (Settings.Default.WindowOpacity < 100)
-                {
-                    Opacity = Settings.Default.WindowOpacity / 100.0;
-                    Logger.I(TAG, "Restore window opacity: " + Opacity);
-                }
 
                 // 恢复自动复制选项状态
                 ChkAutoCopy.Checked = Settings.Default.AutoCopy;
@@ -128,7 +122,7 @@ namespace GrasscutterTools.Forms
         private void FormMain_Load(object sender, EventArgs e)
         {
             Logger.I(TAG, "FormMain_Load enter");
-            Text += "  - by jie65535  - v" + Common.AppVersion.ToString(3);
+            Text += " 精简版 - by Amireux  - v" + Common.AppVersion.ToString(3);
 #if DEBUG
             Text += "-debug";
 #endif
@@ -211,27 +205,15 @@ namespace GrasscutterTools.Forms
             CreatePage<PageHome>();
             var poc = CreatePage<PageOpenCommand>();
             poc.ShowTipInRunButton = msg => ShowTip(msg, BtnInvokeOpenCommand);
-            CreatePage<PageProxy>();
             CreatePage<PageCustomCommands>();
-            CreatePage<PageHotKey>();
             CreatePage<PageGiveArtifact>();
             CreatePage<PageSetProp>();
             CreatePage<PageSpawn>();
             CreatePage<PageGiveItem>();
-            CreatePage<PageAvatar>();
-            CreatePage<PageGiveWeapon>();
-            CreatePage<PageScene>();
-            CreatePage<PageSceneTag>();
-            CreatePage<PageWeather>();
-            CreatePage<PageTasks>();
             CreatePage<PageManagement>();
-            CreatePage<PageMail>();
-            CreatePage<PageQuest>();
-            CreatePage<PageAchievement>();
             CreatePage<PageSettings>();
             CreatePage<PageAbout>();
 #if DEBUG
-            CreatePage<PageTools>();
 #endif
             TCMain.ResumeLayout();
             Logger.I(TAG, "InitPages completed");
@@ -299,7 +281,7 @@ namespace GrasscutterTools.Forms
             var setting = new StringCollection();
             // 冒号分隔的项   "PageHome:1"  0=隐藏 1=显示
             foreach (var pageOrder in PageTabOrders)
-                setting.Add($"{pageOrder.Item1}:{(pageOrder.Item2?'1':'0')}");
+                setting.Add($"{pageOrder.Item1}:{(pageOrder.Item2 ? '1' : '0')}");
             Settings.Default.PageOrders = setting;
         }
 
@@ -712,7 +694,7 @@ namespace GrasscutterTools.Forms
                     if (!hotkeyItem.IsEnabled) continue;
 
                     var t = hotkeyItem.HotKey.LastIndexOf('+');
-                    var key = (t >= 0) ? hotkeyItem.HotKey.Substring(t+1) : hotkeyItem.HotKey;
+                    var key = (t >= 0) ? hotkeyItem.HotKey.Substring(t + 1) : hotkeyItem.HotKey;
                     if (e.KeyCode != (Keys)Enum.Parse(typeof(Keys), key.Trim()))
                         continue;
 

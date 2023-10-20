@@ -226,9 +226,6 @@
   <data name="QueryServerStatusFailed" xml:space="preserve">
     <value>查询服务端状态失败：</value>
   </data>
-  <data name="Quest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="RequireOpenCommandTip" xml:space="preserve">
     <value>请先连接到支持[OpenCommand]的服务器</value>
   </data>
@@ -300,9 +297,6 @@
   <data name="Banners" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Banners.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Dungeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Dungeon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="All" xml:space="preserve">
     <value>全部</value>
   </data>
@@ -369,9 +363,6 @@
   <data name="PageSetPropTitle" xml:space="preserve">
     <value>属性</value>
   </data>
-  <data name="Cutscene" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Cutscene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="PageHotKey" xml:space="preserve">
     <value>快捷键</value>
   </data>
@@ -395,9 +386,6 @@
   </data>
   <data name="PageSettingsTitle" xml:space="preserve">
     <value>设置</value>
-  </data>
-  <data name="Weather" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Weather.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="PageWeatherTitle" xml:space="preserve">
     <value>天气</value>

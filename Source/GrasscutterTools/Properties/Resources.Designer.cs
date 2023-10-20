@@ -636,87 +636,6 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 1:[测试]空画面
-        ///2:[测试]空画面
-        ///3:[疑似剧情]风起地七天神像激活
-        ///4:未知秘境内某门开启
-        ///5:未知秘境内某门开启
-        ///6:无画面(UI会闪一下)
-        ///7:未知区域画面旋转
-        ///8:进入风龙废墟秘境
-        ///9:达达乌帕谷剑屏障解锁
-        ///200201:[剧情]蒙德主线特瓦林最后战斗  秘境ID:20018(测试)或20025(正式)
-        ///10:风龙废墟解除三层封印1
-        ///11:风龙废墟解除三层封印2
-        ///12:风龙废墟解除三层封印3
-        ///13:秘境奖励领取时
-        ///14:未知区域画面旋转
-        ///15:不明地下视角
-        ///16:不明地下视角
-        ///17:忍冬之树普通
-        ///18:忍冬之树形态1
-        ///19:忍冬之树1升级2
-        ///20:忍冬之树形态2
-        ///21:忍冬之树2升级3
-        ///22:雪山冰本进入时
-        ///23:不明地下视角
-        ///24:不明地下视角
-        ///25:稻妻神樱树远景
-        ///26:[世界任务]神樱大祓净化进度1
-        ///27:[世界任务]神樱大祓净化进度2
-        ///28:[世界任务]神樱大祓净化进度3
-        ///29:[世界任务]神樱大祓净化进度4
-        ///30:[世界任务]神樱大祓净化进度5
-        ///31:稻妻荒海机关解锁
-        ///32:稻妻八酝岛阵代屋敷秘境解锁
-        ///33:稻妻清籁岛木 [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string Cutscene {
-            get {
-                return ResourceManager.GetString("Cutscene", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 1:深入狼之殿
-        ///2:丘丘人大本营(test)
-        ///3:丘丘人巢穴(test)
-        ///4:小岩洞据点(test)
-        ///5:小岩洞据点(test)
-        ///6:小岩洞秘境(test)
-        ///7:遗迹遇险点(test)
-        ///8:丘丘人小据点(test)
-        ///9:丘丘人大据点(test)
-        ///10:密林、废墟与龙之泪
-        ///11:壶中天
-        ///12:洞天云海地城玩法测试(test)
-        ///13:角色战斗测试(test)
-        ///15:低温关卡白盒(test)
-        ///16:移动平台性能测试(test)
-        ///17:战斗性能测试(test)
-        ///18:电桩电源白盒(test)
-        ///19:圣遗物新因子测试关卡3(test)
-        ///20:圣遗物新因子测试关卡1(test)
-        ///21:圣遗物新因子测试关卡2(test)
-        ///24:黑夜循环地城(test)
-        ///25:关卡玩法白盒CX(test)
-        ///26:机关玩法白盒(test)
-        ///27:怪物元素对抗地城(test)
-        ///28:地城功能白盒测试(test)
-        ///29:守护玩法白盒测试(test)
-        ///30:夺回宝物
-        ///31:岩元素白盒测试(test)
-        ///32:蒙德圣遗物挑战1白盒测试(test)
-        ///33:爬塔丘丘人模板(test)
-        ///34:云海白 [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string Dungeon {
-            get {
-                return ResourceManager.GetString("Dungeon", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   查找类似 输入不能为空！ 的本地化字符串。
         /// </summary>
         internal static string EmptyInputTip {
@@ -1356,28 +1275,6 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 30302:女神像解锁$HIDDEN - [N/A] 362713143
-        ///30303:女神像解锁$HIDDEN - [N/A] 715511863
-        ///30304:女神像解锁$HIDDEN - [N/A] 163018255
-        ///30305:女神像解锁$HIDDEN - [N/A] 3694648119
-        ///30306:女神像解锁$HIDDEN - [N/A] 3223799591
-        ///30307:女神像解锁$HIDDEN - [N/A] 1232757671
-        ///30308:女神像解锁$HIDDEN - [N/A] 3056513767
-        ///30309:女神像解锁$HIDDEN - [N/A] 2426653367
-        ///30310:女神像解锁$HIDDEN - [N/A] 2003131071
-        ///30311:女神像解锁$HIDDEN - [N/A] 105277231
-        ///30312:女神像解锁$HIDDEN - [N/A] 3391806215
-        ///30313:女神像解锁$HIDDEN - [N/A] 1357500887
-        ///30314:女神像解锁$HIDDEN - [N/A] 3054344935
-        ///30315:女神像 [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string Quest {
-            get {
-                return ResourceManager.GetString("Quest", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   查找类似 请先连接到支持[OpenCommand]的服务器 的本地化字符串。
         /// </summary>
         internal static string RequireOpenCommandTip {
@@ -1736,42 +1633,6 @@ namespace GrasscutterTools.Properties {
         internal static string WeaponColor {
             get {
                 return ResourceManager.GetString("WeaponColor", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 // 1
-        ///2139:LP_Fog_Light
-        ///2140:LP_Fog_Heavy
-        ///2141:LP_Fog_Light
-        ///2142:LP_Fog_Light
-        ///2143:LP_Fog_Light
-        ///4206:Dq_HeGuan_Doom
-        ///4207:Dq_HeGuan_DoomHeavy
-        ///4208:Dq_HeGuan_DoomHeavyest
-        ///// 3
-        ///1:Md_General
-        ///2:Md_WindDragon
-        ///3:Md_City_Storm
-        ///4:Monster_LupiBoreas
-        ///1000:Md_General
-        ///1001:Md_General
-        ///1002:Md_General
-        ///1003:Md_General
-        ///1004:Md_General
-        ///1005:Md_General
-        ///1006:Md_City_General
-        ///1007:Md_WindDragon
-        ///1008:Md_City_Fenghuajie
-        ///1009:Md_General
-        ///1010:ActivityArena_Fire
-        ///1011:ActivityArena_Sunny
-        ///1012:Md_General
-        ///1013: [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string Weather {
-            get {
-                return ResourceManager.GetString("Weather", resourceCulture);
             }
         }
     }

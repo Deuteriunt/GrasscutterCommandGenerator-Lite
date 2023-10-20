@@ -96,28 +96,24 @@
             resources.ApplyResources(this.BtnResetPageList, "BtnResetPageList");
             this.BtnResetPageList.Name = "BtnResetPageList";
             this.BtnResetPageList.UseVisualStyleBackColor = true;
-            this.BtnResetPageList.Click += new System.EventHandler(this.BtnResetPageList_Click);
             // 
             // BtnMoveDown
             // 
             resources.ApplyResources(this.BtnMoveDown, "BtnMoveDown");
             this.BtnMoveDown.Name = "BtnMoveDown";
             this.BtnMoveDown.UseVisualStyleBackColor = true;
-            this.BtnMoveDown.Click += new System.EventHandler(this.BtnMoveDown_Click);
             // 
             // BtnMoveUp
             // 
             resources.ApplyResources(this.BtnMoveUp, "BtnMoveUp");
             this.BtnMoveUp.Name = "BtnMoveUp";
             this.BtnMoveUp.UseVisualStyleBackColor = true;
-            this.BtnMoveUp.Click += new System.EventHandler(this.BtnMoveUp_Click);
             // 
             // ChkListPages
             // 
             resources.ApplyResources(this.ChkListPages, "ChkListPages");
             this.ChkListPages.FormattingEnabled = true;
             this.ChkListPages.Name = "ChkListPages";
-            this.ChkListPages.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.ChkListPages_ItemCheck);
             // 
             // LblGCVersion
             // 
@@ -167,7 +163,6 @@
             this.Controls.Add(this.LblGcVersionTip);
             this.Controls.Add(this.LblGCVersion);
             this.Controls.Add(this.CmbGcVersions);
-            this.Controls.Add(this.GrpPageList);
             this.Controls.Add(this.LblIncludeUidTip);
             this.Controls.Add(this.NUDUid);
             this.Controls.Add(this.ChkIncludeUID);

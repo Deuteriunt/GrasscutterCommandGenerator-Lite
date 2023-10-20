@@ -27,12 +27,12 @@ namespace GrasscutterTools
         /// <summary>
         /// 语言名称列表
         /// </summary>
-        public static readonly string[] LanguageNames = new string[] { "简体中文", "繁體中文", "English", "Русский" };
+        public static readonly string[] LanguageNames = new string[] { "简体中文", "English" };
 
         /// <summary>
         /// 语言代码列表
         /// </summary>
-        public static readonly string[] Languages = new string[] { "zh-CN", "zh-TW", "en-US", "ru-RU" };
+        public static readonly string[] Languages = new string[] { "zh-CN", "en-US" };
 
         public static void SetDefaultLanguage(string lang)
         {

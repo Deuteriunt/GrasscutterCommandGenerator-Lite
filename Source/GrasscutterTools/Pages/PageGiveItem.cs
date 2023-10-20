@@ -64,7 +64,7 @@ namespace GrasscutterTools.Pages
 
             CmbFilterItem.DataSource = types;
             ItemList = itemList;
-            
+
             LoadItemList();
         }
 
@@ -249,6 +249,6 @@ namespace GrasscutterTools.Pages
         }
 
         #endregion -- 物品记录 --
-        
+
     }
 }

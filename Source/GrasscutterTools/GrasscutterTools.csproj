@@ -343,10 +343,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.zh-TW.Designer.cs">
-      <DependentUpon>Resources.zh-TW.resx</DependentUpon>
+    <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Utils\AppHotKey.cs" />
     <Compile Include="Utils\ArtifactUtils.cs" />
@@ -426,15 +426,7 @@
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormMain.ru-ru.resx">
-      <DependentUpon>FormMain.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMain.resx">
-      <DependentUpon>FormMain.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormMain.zh-TW.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -674,6 +666,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSettings.resx">
       <DependentUpon>PageSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSettings.ru-RU.resx">
       <DependentUpon>PageSettings.cs</DependentUpon>
@@ -721,39 +714,19 @@
     <EmbeddedResource Include="Pages\PageWeather.zh-TW.resx">
       <DependentUpon>PageWeather.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.zh-TW.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.zh-TW.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.en-us.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.en-us.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.ru-ru.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.ru-ru.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.en-us.Designer.cs">
       <DependentUpon>Resources.en-us.resx</DependentUpon>
       <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Properties\Resources.ru-ru.Designer.cs">
-      <DependentUpon>Resources.ru-ru.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Eavesdrop\LICENSE.md" />
@@ -770,7 +743,6 @@
     </Compile>
     <None Include="Resources\Banners.json" />
     <None Include="Resources\en-us\AvatarStats.json" />
-    <None Include="Resources\ru-ru\AvatarStats.json" />
     <None Include="Resources\zh-cn\AvatarStats.json" />
   </ItemGroup>
   <ItemGroup>
@@ -785,48 +757,23 @@
     <Content Include="Resources\en-us\ArtifactSubAttribution.txt" />
     <Content Include="Resources\en-us\Avatar.txt" />
     <Content Include="Resources\en-us\CustomCommands.txt" />
-    <None Include="Resources\en-us\Dungeon.txt" />
-    <Content Include="Resources\en-us\Cutscene.txt" />
     <Content Include="Resources\en-us\GachaBennerTitle.txt" />
     <Content Include="Resources\en-us\GachaBennerPrefab.txt" />
     <Content Include="Resources\en-us\Gadget.txt" />
     <Content Include="Resources\en-us\Item.txt" />
     <Content Include="Resources\en-us\Monsters.txt" />
     <Content Include="Resources\en-us\PlayerProperty.txt" />
-    <Content Include="Resources\en-us\Quest.txt" />
     <Content Include="Resources\en-us\Scene.txt" />
     <Content Include="Resources\en-us\ShopType.txt" />
     <Content Include="Resources\en-us\Weapon.txt" />
     <None Include="Resources\Newtonsoft.Json.dll" />
-    <Content Include="Resources\en-us\Weather.txt" />
     <Content Include="Resources\MyTools.java" />
-    <Content Include="Resources\ru-ru\Achievement.txt" />
-    <Content Include="Resources\ru-ru\Activity.txt" />
-    <Content Include="Resources\ru-ru\Artifact.txt" />
-    <Content Include="Resources\ru-ru\ArtifactCat.txt" />
-    <Content Include="Resources\ru-ru\ArtifactMainAttribution.txt" />
-    <Content Include="Resources\ru-ru\ArtifactSubAttribution.txt" />
-    <Content Include="Resources\ru-ru\Avatar.txt" />
-    <Content Include="Resources\ru-ru\CustomCommands.txt" />
-    <None Include="Resources\ru-ru\Dungeon.txt" />
-    <Content Include="Resources\ru-ru\Cutscene.txt" />
-    <Content Include="Resources\ru-ru\GachaBennerTitle.txt" />
-    <Content Include="Resources\ru-ru\GachaBennerPrefab.txt" />
-    <Content Include="Resources\ru-ru\Gadget.txt" />
-    <Content Include="Resources\ru-ru\Item.txt" />
-    <Content Include="Resources\ru-ru\Monsters.txt" />
-    <Content Include="Resources\ru-ru\PlayerProperty.txt" />
-    <Content Include="Resources\ru-ru\Quest.txt" />
-    <Content Include="Resources\ru-ru\Scene.txt" />
-    <Content Include="Resources\ru-ru\ShopType.txt" />
-    <Content Include="Resources\ru-ru\Weapon.txt" />
     <Content Include="Resources\IconGrasscutter.ico" />
     <Content Include="Resources\IconGrasscutter.png" />
     <None Include="Resources\ImgSupport.png" />
     <Content Include="Resources\Permissions.txt" />
     <Content Include="Resources\SceneTag.txt" />
     <Content Include="Resources\WeaponColor.txt" />
-    <Content Include="Resources\zh-cn\Weather.txt" />
     <Content Include="Resources\zh-cn\Achievement.txt" />
     <Content Include="Resources\zh-cn\Activity.txt" />
     <Content Include="Resources\zh-cn\ArtifactCat.txt" />
@@ -836,38 +783,15 @@
     <Content Include="Resources\zh-cn\Avatar.txt" />
     <Content Include="Resources\zh-cn\CustomCommands.txt" />
     <Content Include="Resources\AvatarColor.txt" />
-    <None Include="Resources\zh-cn\Dungeon.txt" />
-    <Content Include="Resources\zh-cn\Cutscene.txt" />
     <Content Include="Resources\zh-cn\GachaBannerTitle.txt" />
     <Content Include="Resources\zh-cn\GachaBennerPrefab.txt" />
     <Content Include="Resources\zh-cn\Gadget.txt" />
     <Content Include="Resources\zh-cn\Item.txt" />
     <Content Include="Resources\zh-cn\Monsters.txt" />
     <Content Include="Resources\zh-cn\PlayerProperty.txt" />
-    <Content Include="Resources\zh-cn\Quest.txt" />
     <Content Include="Resources\zh-cn\Scene.txt" />
     <Content Include="Resources\zh-cn\ShopType.txt" />
     <Content Include="Resources\zh-cn\Weapon.txt" />
-    <Content Include="Resources\zh-tw\Achievement.txt" />
-    <Content Include="Resources\zh-tw\Activity.txt" />
-    <Content Include="Resources\zh-tw\ArtifactCat.txt" />
-    <Content Include="Resources\zh-tw\ArtifactMainAttribution.txt" />
-    <Content Include="Resources\zh-tw\Artifact.txt" />
-    <Content Include="Resources\zh-tw\ArtifactSubAttribution.txt" />
-    <Content Include="Resources\zh-tw\Avatar.txt" />
-    <Content Include="Resources\zh-tw\CustomCommands.txt" />
-    <None Include="Resources\zh-tw\Dungeon.txt" />
-    <Content Include="Resources\zh-tw\Cutscene.txt" />
-    <Content Include="Resources\zh-tw\GachaBennerTitle.txt" />
-    <Content Include="Resources\zh-tw\GachaBennerPrefab.txt" />
-    <None Include="Resources\zh-tw\Gadget.txt" />
-    <Content Include="Resources\zh-tw\Item.txt" />
-    <Content Include="Resources\zh-tw\Monsters.txt" />
-    <Content Include="Resources\zh-tw\PlayerProperty.txt" />
-    <Content Include="Resources\zh-tw\Quest.txt" />
-    <Content Include="Resources\zh-tw\Scene.txt" />
-    <Content Include="Resources\zh-tw\ShopType.txt" />
-    <Content Include="Resources\zh-tw\Weapon.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">

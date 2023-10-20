@@ -33,20 +33,16 @@ namespace GrasscutterTools.Game
             ArtifactSubAttribution = new ItemMap(Resources.ArtifactSubAttribution);
             Avatars = new ItemMap(Resources.Avatar);
             AvatarColors = new ItemMap(Resources.AvatarColor);
-            CutScenes = new ItemMap(Resources.Cutscene);
             Items = new ItemMapGroup(Resources.Item);
             Monsters = new ItemMapGroup(Resources.Monsters);
             Gadgets = new ItemMapGroup(Resources.Gadget);
             Scenes = new ItemMap(Resources.Scene);
             SceneTags = new ItemMapGroup(Resources.SceneTag);
-            Dungeons = new ItemMap(Resources.Dungeon);
             Weapons = new ItemMap(Resources.Weapon);
             WeaponColors = new ItemMap(Resources.WeaponColor);
             GachaBannerPrefabs = new ItemMap(Resources.GachaBennerPrefab);
             GachaBannerTitles = new ItemMap(Resources.GachaBannerTitle);
-            Quests = new ItemMap(Resources.Quest);
             ShopType = new ItemMap(Resources.ShopType);
-            Weathers = new ItemMapGroup(Resources.Weather);
         }
 
         public static ItemMap Achievements { get; private set; }

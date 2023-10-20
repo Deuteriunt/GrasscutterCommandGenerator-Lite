@@ -36,7 +36,7 @@ namespace GrasscutterTools.Utils
         }
 
         #region Member
-        
+
         private static int _regMaxId;
 
         private readonly IntPtr FormHandle;

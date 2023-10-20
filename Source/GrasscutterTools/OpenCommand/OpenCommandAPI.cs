@@ -65,7 +65,7 @@ namespace GrasscutterTools.OpenCommand
             var response = await DoRequest("ping");
             if (response.Data is string str && Version.TryParse(str, out var version))
                 Version = version;
-            
+
             return response.RetCode == 200;
             //}
             //catch (Exception)

@@ -135,7 +135,7 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private void BtnActivityEditor_Click(object sender, EventArgs e)
             => ShowForm<FormActivityEditor>("ActivityEditor");
-        
+
         /// <summary>
         /// 语言选中项改变时触发
         /// </summary>
